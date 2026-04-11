@@ -6,8 +6,7 @@ CF Tunnel and Adkynet service monitoring scripts for Qinglong panel.
 
 | Script | Description |
 |--------|-------------|
-| `scripts/monitor.py` | Python version (requires Selenium + Chrome) |
-| `scripts/monitor.sh` | Bash version (uses curl) |
+| `scripts/monitor.py` | Python version (requires Selenium + Chrome/Chromium) |
 
 ## Setup
 
