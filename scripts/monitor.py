@@ -189,7 +189,7 @@ class CFMonitor:
                 print("---[信息] 正在输入用户名...")
                 try:
                     username_input = WebDriverWait(driver, 15).until(
-                        EC.presence_of_element_located((By.id, "inputEmail"))
+                        EC.presence_of_element_located((By.ID, "inputEmail"))
                     )
                     username_input.clear()
                     username_input.send_keys(self.adkynet_user)
@@ -198,7 +198,7 @@ class CFMonitor:
                     raise Exception("找不到用户名输入框")
                 
                 # 3. 输入密码
-                password_input = driver.find_element(By.id, "inputPassword")
+                password_input = driver.find_element(By.ID, "inputPassword")
                 password_input.clear()
                 password_input.send_keys(self.manager_pass)
                 
